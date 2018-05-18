@@ -1,0 +1,25 @@
+{
+    "name": "authentech/authentech-preset",
+    "description": "Basic Authentech Laravel preset",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel preset", "authentech"],
+    "authors": [
+      {
+        "name": "Chris Faulkner",
+        "email": "chris@authentech.co.uk"
+      }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "Authentech\\AuthentechPreset": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Authentech\\AuthentechPreset\\AuthentechServiceProvider"
+        ]
+      }
+    }
+}
