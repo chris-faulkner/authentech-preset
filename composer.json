@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "autoload": {
       "psr-4": {
-        "Authentech\\AuthentechPreset": "src/"
+        "Authentech\\AuthentechPreset\\": "src/"
       }
     },
     "extra": {
